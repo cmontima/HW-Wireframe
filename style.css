@@ -1,46 +1,108 @@
-/*
-Stylesheet #1
-=============
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
-*/
-
 body {
-    /* Box-model */
     padding: 0;
-  
-    /* Positioning */
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-  
-    /* Typography */
+	border: #100;
+	margin: 100px;
+	width: 960px;
+	font-family: Arial, Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'Times, serif;
     font-size: 18px;
-    line-height: 150%;
-    color: #333;
-  
-    /* Visual */
-    background: #efeee7;
+    line-height: 20px;
+	color: #333;
+	background: #777;
+	position: relative;
   }
+
   
-  header {
-    background: #d21034;
-  }
-  
-  h1 {
-    /* Box-model */
-    padding: 20px 0;
-  
-    /* Positioning */
-    margin: 0;
-    margin-bottom: 20px;
+section {
+	padding: 50px;
+	width: 50px;
+	height: 100px;
+	margin: 40px;
+	color: black;
+	background: #ebebeb;
+	border-style: solid;
+	border-width: thick;
+	border-color: black;
+	position: relative;
+}
+
+
+.container {
+	padding: 50px;
+	border: 50px;
+	margin: 50px;
+	width: 960px;
+	height: 100px;
     font-size: 28px;
-  
-    /* Typography */
-    color: #eee;
+    color: #777;
     text-align: center;
-  
-    /* Visual */
-    background: #333;
-  }
-  
+	background: #ebebeb;
+	display: grid;
+}
+
+#container {
+	margin: 50px;
+	border: 10px;
+	padding: 10px;
+	width: 600px;
+	height: 350px;
+    font-size: 28px;
+    color: #777;
+    text-align: center;
+	background: #ebebeb;
+	display: grid;
+	float: left;
+}
+
+
+#article {
+	margin: auto;
+	border: auto;
+	padding: 20px;
+	width: 550px;
+	height: 200px;
+	background: #777;
+	color: #ebebeb;
+	text-align: center;
+	display: grid;
+}
+
+#first {
+	margin: 5px;
+	border: 5px;
+	padding: 5px;
+	width: 450px;
+	height: 50px;
+	background: #ebebeb;
+	color: #777;
+	text-align: center;
+}
+
+#second {
+	margin: 5px;
+	border: 5px;
+	padding: 5px;
+	width: 450px;
+	height: 50px;
+	color: #777;
+	background: #ebebeb;
+	text-align: center;
+	display: block;
+	float: left;
+}
+
+.aside {
+	margin: 50px;
+	border: 10px;
+	padding: 10px;
+	width: 400px;
+	height: 350px;
+    font-size: 28px;
+    color: #777;
+    text-align: center;
+	background: #ebebeb;
+	float: left;
+}
+
+@media screen and (max-width:768px){
+	
+}
